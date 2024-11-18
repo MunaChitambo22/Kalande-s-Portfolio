@@ -24,11 +24,11 @@ const NAV_MENU = [
     name: "Account",
     icon: UserCircleIcon,
   },
-  {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
-  },
+  // {
+  //   name: "Docs",
+  //   icon: CommandLineIcon,
+  //   href: "https://www.material-tailwind.com/docs/react/installation",
+  // },
 ];
 
 interface NavItemProps {

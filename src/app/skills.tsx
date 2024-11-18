@@ -24,24 +24,24 @@ const SKILLS = [
     children:
       " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
   },
-  {
-    icon: SwatchIcon,
-    title: "Technology Stack",
-    children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
-  },
+  // {
+  //   icon: SwatchIcon,
+  //   title: "Technology Stack",
+  //   children:
+  //     "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+  // },
   {
     icon: HashtagIcon,
     title: " Web Optimization",
     children:
       "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
   },
-  {
-    icon: EyeIcon,
-    title: "User-Centric Design",
-    children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
-  },
+  // {
+  //   icon: EyeIcon,
+  //   title: "User-Centric Design",
+  //   children:
+  //     "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
+  // },
   {
     icon: DocumentTextIcon,
     title: "Testing and Quality Assurance",
@@ -67,7 +67,7 @@ export function Skills() {
           At [Your Business Name], we specialize in delivering seamless, end-to-end sourcing strategies that empower your business to succeed in a complex marketplace.
         </Typography>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
         {SKILLS.map((props, idx) => (
           <SkillCard key={idx} {...props} />
         ))}

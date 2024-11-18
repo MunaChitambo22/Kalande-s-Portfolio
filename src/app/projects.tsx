@@ -6,43 +6,23 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Strategic Sourcing",
+    desc: "Discover smarter, scalable sourcing strategies that align with your goals, delivering the right solutions at the right price.",
   },
   {
     img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+    title: "Supplier Management",
+    desc: "From vetting to quality control, we ensure you work with trusted, reliable partners every time.",
   },
   {
     img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Contract Negotiation",
+    desc: "Protect your interests with expertly negotiated contracts, maximizing value and minimizing risk.",
   },
   {
     img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
-  },
-  {
-    img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
-  },
-  {
-    img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "Logistics Coordination",
+    desc: "A streamlined approach to logistics management, from start to finish.",
   },
 ];
 
@@ -62,9 +42,13 @@ export function Projects() {
           dreams into reality.
         </Typography>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
+      <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-2">
         {PROJECTS.map((props, idx) => (
-          <ProjectCard key={idx} {...props} />
+          <div key={idx} className="flex justify-center">
+            <div className="w-64 h-64">
+              <ProjectCard {...props} />
+            </div>
+          </div>
         ))}
       </div>
     </section>

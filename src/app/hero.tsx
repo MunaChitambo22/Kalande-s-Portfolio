@@ -19,6 +19,9 @@ function Hero() {
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
           >
            Unlock a world of streamlined procurement solutions tailored for efficiency and growth. 
           </Typography>

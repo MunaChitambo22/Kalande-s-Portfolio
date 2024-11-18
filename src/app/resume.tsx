@@ -12,15 +12,15 @@ import { ResumeItem } from "@/components";
 const RESUME_ITEMS = [
   {
     icon: ChartBarIcon,
-    children: "Bachelor of Science in Computer Science",
+    children: "Global Reach, Local Expertise. Connecting you with reliable suppliers worldwide",
   },
   {
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: "Efficiency Meets Excellence. Precision in procurement from start to finish.",
   },
   {
     icon: CursorArrowRaysIcon,
-    children: "Frontend Framework Proficiency Certification",
+    children: "Driven by Results. Focused on outcomes that matter to your business.",
   },
 ];
 
@@ -33,7 +33,7 @@ export function Resume() {
             My Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
-          With a legacy of excellence in procurement, we are dedicated to offering cost-effective, reliable solutions that drive your business forward. Our expertise, paired with deep industry insights, means you get the best value every time.
+            With a legacy of excellence in procurement, we are dedicated to offering cost-effective, reliable solutions that drive your business forward. Our expertise, paired with deep industry insights, means you get the best value every time.
           </Typography>
           <Button
             variant="text"

@@ -1,10 +1,4 @@
 {
-  "name": "nextjs-tailwind-portfolio-page",
-  "version": "1.0.0",
-  "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-portfolio-page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
