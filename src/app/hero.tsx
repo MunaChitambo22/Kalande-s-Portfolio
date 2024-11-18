@@ -11,6 +11,7 @@ function Hero() {
           <Typography
             variant="h1"
             color="blue-gray"
+            placeholder=""
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
             Sourcing Success, Every Step of the Way

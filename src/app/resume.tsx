@@ -33,9 +33,7 @@ export function Resume() {
             My Resume
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
-            Highly skilled and creative Web Developer with 5+ years of
-            experience in crafting visually stunning and functionally robust
-            websites and web applications.
+          With a legacy of excellence in procurement, we are dedicated to offering cost-effective, reliable solutions that drive your business forward. Our expertise, paired with deep industry insights, means you get the best value every time.
           </Typography>
           <Button
             variant="text"
